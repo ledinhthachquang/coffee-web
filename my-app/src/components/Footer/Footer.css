@@ -2,12 +2,10 @@
     width: 100%;
     position: relative;
     z-index: 1;
-
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-
     background: url('../../assets/bg.png');
     padding-top: 0;
 }
@@ -17,7 +15,6 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-
     margin-top: 5rem;
     padding: 0 2rem;
 }
@@ -34,7 +31,6 @@
     width: 210px;
     margin-bottom: 0.75rem;
 }
-
 
 .app__footer-links_work p:nth-child(2n + 1) {
     margin-bottom: 1rem;
