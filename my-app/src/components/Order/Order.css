@@ -1,1 +1,25 @@
-    
+.app__menu{
+    height: 100vh;
+    background-color: var(--color-white);
+}
+.app__menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30rem);
+    gap:2rem;
+    align-items: flex-start;
+    justify-content: center;
+ }
+ 
+ .app__menu .box-container .box{
+    text-align: center;
+ }
+ 
+ .app__menu .box-container .box img{
+    width: 100%;
+    margin-bottom: 1rem;
+ }
+ 
+ .app__menu .box-container .box h3{
+    font-size: 2rem;
+    color:var(--black);
+ }
