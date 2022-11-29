@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsFillPlayFill, BsPauseFill } from 'react-icons/bs';
 
-import meal from '../../assets/meal.mp4';
+import coffe from '../../assets/Coffee.mp4';
 import './Intro.css';
 
 const Intro = () => {
@@ -12,7 +12,7 @@ const Intro = () => {
     <div className="app__video">
       <video
         ref={vidRef}
-        src={meal}
+        src={coffe}
         type="video/mp4"
         loop
         controls={false}
