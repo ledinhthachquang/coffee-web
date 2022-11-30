@@ -1,3 +1,4 @@
+
 * {
     padding: 0;
     margin: 0;
@@ -136,7 +137,7 @@ color: #4D4D4D;
     width: 620px;
     height: 480px;
     left: 115px;
-    top: 1370px;
+    top: 1435px;
 }
 
 #content .product-name__4 {
@@ -166,9 +167,9 @@ color: #4D4D4D;
 
 #content .about-text__4 {
     position: absolute;
-    width: 431px;
+    width: 520px;
     height: 102px;
-    left: 920px;
+    left: 940px;
     top: 1726px;
     
 /* Body */
@@ -224,4 +225,127 @@ color: #4D4D4D;
     /* 233000 */
 
     /* border: 1px solid #233000; */
+}
+
+/* BREAK POINT */
+
+/* Mobile */
+@media screen and (max-width: 740px) {
+    
+    #content .content-products {
+        max-width: 100%;
+
+        left: 40px;
+        top: 20px;
+
+        font-weight: 700;
+        font-size: 48px;
+    }
+    
+    #content .mobile-name-2 {
+        width: 100%;
+
+        left: 35px;
+        top: 200px;
+
+        font-size: 36px;
+    }
+    
+    #content .about-text__2 {
+        width: 100%;
+
+        font-size: 18px;
+
+        left: 35px;
+        top: 250px;
+    }
+    
+    #content .product-img__2 {
+        width: 100%;
+        
+        top: 400px;
+        left: 35px;
+    }
+    
+    
+    #content .product-name__3 {
+        width: 100%;
+
+        left: 35px;
+        top: 800px;
+
+        font-size: 36px;
+    }
+    
+    #content .about-text__3 {
+        width: 100%;
+
+        left: 35px;
+        top: 850px;
+
+        font-size: 18px;
+    }
+    
+    #content .product-img__3 {
+        /* image 3 */
+        width: 100%;
+
+        left: 35px;
+        top: 900px;
+    }
+    
+    #content .product-name__4 {
+        width: 100%;
+
+        left: 35px;
+        top: 1320px;
+
+        font-size: 36px;
+    }
+    
+    #content .about-text__4 {
+        width: 100%;
+
+        left: 35px;
+        top: 1370px;
+
+        font-size: 18px;
+    }
+    
+    #content .product-img__4 {
+        /* image 4 */
+    
+        width: 100%;
+
+        left: 35px;
+        top: 1470px;
+    }
+    
+    
+    #content .Mobile-decor-1 {
+        width: 35%;
+        
+        left: 82.69%;
+        top: -0.71%;
+    }
+
+    .Mobile-decor-2 {
+        width: 50%;
+
+        top: 1800px;
+    }
+}
+
+/* Tablet */
+@media screen and ((min-width: 740px) and (max-width: 1023px)) {
+    #content .Mobile-decor-1 {
+        left: 138.69%;
+        right: 83.41%;
+        top: -20%;
+        bottom: 1.27%;
+    }
+
+    .Table-decor-2 {
+        top: 167%;
+    }
 }
