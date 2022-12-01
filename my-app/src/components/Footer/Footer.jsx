@@ -16,7 +16,7 @@ const Footer = () => (
       </div>
 
       <div className="app__footer-links_logo">
-        <h1 className='app__footer-headtext'>Hoàng Lê <div style={{display :'inline',color:'#DB9494'}}>Coffe</div> </h1>     
+        <h1 className='app__footer-headtext'>Hoàng Lê <div style={{display :'inline',color:'#DB9494'}}>Coffee</div> </h1>     
         <p className="p__opensans">&quot;Đánh thức giấc mơ của bạn với một tách cà phê.&quot;</p>
         <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} />
         <div className="app__footer-links_icons">
@@ -36,7 +36,7 @@ const Footer = () => (
     </div>
 
     <div className="footer__copyright">
-      <p className="p__opensans">Hoàng Lê <div style={{display :'inline',color:'#DB9494'}}>Coffe</div>. Hân hạnh được phục vụ.</p>
+      <p className="p__opensans">Hoàng Lê <div style={{display :'inline',color:'#DB9494'}}>Coffee</div>. Hân hạnh được phục vụ.</p>
     </div>
 
   </div>

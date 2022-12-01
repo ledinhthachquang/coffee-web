@@ -17,7 +17,7 @@ window.addEventListener('scroll',changeColor)
     <div className={color ? 'header header_bg' : 'header'}>
     <nav className="app__navbar ">
       <div className="app__navbar-logo">
-        <h1 className='app__navbar-logo_content'>Hoàng Lê <div style={{display :'inline',color:'#DB9494'}}>Coffe</div> </h1>
+        <h1 className='app__navbar-logo_content'>Hoàng Lê <div style={{display :'inline',color:'#DB9494'}}>Coffee</div> </h1>
         <img src={images.sb} />
       </div>
       <ul className="app__navbar-links">

@@ -21,7 +21,7 @@
 .app__menu .app__card{
    border: 5px solid var(--color-golden);
     border-radius: 28px;
-    box-shadow: 0 3px 10px rgb(0,0,0,0.2);
+    box-shadow: 0 3px 10px rgb(0,0,0,0.2  );
     padding: 1rem;
 }
 .app__menu .box-container{

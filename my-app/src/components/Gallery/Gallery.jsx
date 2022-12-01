@@ -1,7 +1,6 @@
 import React from 'react';
 import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
 import images from '../../constants/images'
-import SubHeading from '../SubHeading/SubHeading';
 import './Gallery.css';
 
 const Gallery = () => {

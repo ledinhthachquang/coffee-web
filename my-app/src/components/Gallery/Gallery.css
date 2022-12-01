@@ -135,11 +135,21 @@
         max-width: 100%;
         margin: 5rem 0;
     }
+    .app__gallery{
+        height: 120vh;
+    }
+
 }
 
 @media screen and (max-width: 850px) {
     .app__gallery {
         padding: 4rem 0 4rem 4rem;
+    }
+    .app__gallery{
+        height: 120vh;
+    }
+    .app__list{
+       margin-bottom: auto;
     }
 }
 
