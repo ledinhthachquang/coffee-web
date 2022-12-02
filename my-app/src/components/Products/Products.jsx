@@ -51,7 +51,9 @@ const Products = () => {
   
       <div className='app__products-footer'>
       <img src={images.rs1} alt="" />
+      {/* <div class="v1_623"></div> */}
       </div>
+      
      </div>
   )
 }
