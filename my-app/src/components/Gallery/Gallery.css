@@ -1,7 +1,7 @@
 .app__gallery {
     flex-direction: row;
     height: 70vh;
-    background: white;
+    background: url('../../assets/bg.png');
     padding: 4rem 0 4rem 6rem;
 }
 .headtext__cormorant{
