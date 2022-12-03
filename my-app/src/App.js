@@ -9,12 +9,13 @@ import Gallery from './components/Gallery/Gallery';
 import Order from './components/Order/Order';
 import Products from './components/Products/Products';
 import Productpage from './Screen/productpage';
-import Productscreen from './Screen/productscreen';
+import Productscreen from './Screen/Productscreen';
 import Introduce from './components/introduce/Introduce';
 import { BrowserRouter as Router, Routes, Route,Link } from 'react-router-dom';
 const mystyle = {
   margin:"200px"
 };
+
 const AppLayout = () => (
 <div>
 <Navbar/>
@@ -38,6 +39,22 @@ const ProductLayout = ()=>(
     
   </Container>
   </main>
+  <Footer/>
+  </div>
+);
+const EachProductLayout = ()=>(
+  <div>
+  <Navbar/>
+  <main style={mystyle}>
+  <Container>
+    
+    
+    <Productscreen/>
+    
+    
+  </Container>
+  </main>
+  <Footer/>
   </div>
 );
 function App() {
@@ -49,7 +66,7 @@ function App() {
         <Route index element={<Productpage />} />
         
       </Route>
-      <Route path='/product/:id' element={<Productscreen/>}/>
+      <Route path='/product/:id' element={<EachProductLayout/>}/>
     
  
       </Routes>

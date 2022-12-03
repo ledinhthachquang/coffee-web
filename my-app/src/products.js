@@ -1,7 +1,7 @@
 const products = [
   {
     _id: '1',
-    name: 'Cà phê Robusta',
+    name: 'LOVE YOU COFFEE',
     image: '/images/menu-1.png',
     description:
       'Coffee',
@@ -13,7 +13,7 @@ const products = [
   },
   {
     _id: '2',
-    name: 'Cà phê Arabica',
+    name: 'CAPPUCCINO',
     image: '/images/menu-2.png',
     description:
     'Coffee',
@@ -25,7 +25,7 @@ const products = [
   },
   {
     _id: '3',
-    name: 'Cà phê Liberia',
+    name: 'MOCHA COFFEE',
     image: '/images/menu-3.png',
     description:
     'Coffee',
