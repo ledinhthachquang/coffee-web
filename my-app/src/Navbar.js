@@ -45,7 +45,8 @@ const Navbar = () => {
          <p>Hương vị chuẩn người Việt </p>
          <p>chất tận gốc giá cả tại vườn</p>
       
-       </div>
+       </div>      
+
      </header>
     </>
   );
