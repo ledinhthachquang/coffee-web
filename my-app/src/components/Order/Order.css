@@ -1,5 +1,5 @@
 .app__menu{
-    height: 100vh;
+    height: 140vh;
     background-color: var(--color-white);
 }
 .headtext__cormorant{
@@ -32,6 +32,35 @@
     margin: auto;
     gap : 4rem;
  }
+.card_in_back{
+   transform: rotateY(180deg); 
+}
+.app__card:hover .card_in_font{
+   transform: rotateY(-180deg);
+}
+.app__card:hover .card_in_back{
+   transform: rotateY(0);
+}
+.card_in_back{
+   transform: rotateY(180deg);
+}
+ .card__side--back-2 {
+   background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
+   .card__cta {
+    
+     
+      width: 90%;
+      text-align: center; }
+    .card__price-box {
+      text-align: center;
+      color: #fff;
+      margin-bottom: 8rem; }
+    .card__price-only {
+      font-size: 1.4rem;
+      text-transform: uppercase; }
+    .card__price-value {
+      font-size: 6rem;
+      font-weight: 100; }
  
  .app__menu .box-container .box{
     text-align: center;
@@ -49,7 +78,7 @@
 
  
 @media screen and (min-width: 2000px) {
-   .app__menu .box-container .box img {
+   .app__menu .box-container .box img {   
        width: 210px;
    }
 }

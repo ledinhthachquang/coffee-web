@@ -8,6 +8,7 @@ import Gallery from './components/Gallery/Gallery';
 import Order from './components/Order/Order';
 import Products from './components/Products/Products';
 import Introduce from './components/introduce/Introduce';
+import Feedback from './components/Feedback/Feedback';
 function App() {
   return (
     <div>
@@ -18,6 +19,7 @@ function App() {
       <Order/>
       <Gallery/>
       <Intro/>
+      <Feedback/>
       <Footer/>
     </div>
   );
