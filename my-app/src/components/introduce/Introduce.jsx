@@ -12,7 +12,7 @@ const Introduce = () => {
         
         <p class="v1_58">Đối với Hoàng Lê Coffee, chất lượng không phải là 'được kiểm soát' mà là 'được xây dựng'. Đó là sự nỗ lực được lặp đi lặp lại mỗi ngày , liên quan đến tất cả mọi người, và nó là một phần tất yếu của mọi công đoạn sản xuất. Rất đơn giản, đó là cách làm việc duy nhất mà chúng tôi biết được!</p> 
         
-        <p class="v1_61">Xem thêm</p>
+        <p class="v1_61 btn">Xem thêm</p>
         <div class="v1_62"></div>
         
     </main>
