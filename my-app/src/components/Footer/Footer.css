@@ -7,7 +7,7 @@
     align-items: center;
     flex-direction: column;
     /* background: url('../../assets/bg.png'); */
-    background-image: linear-gradient(to right, #6A82FB,var(--color-golden)	); 
+    background-image: linear-gradient(to right, #6A82FB,var(--color-golden)); 
 
     padding-top: 0;
 }

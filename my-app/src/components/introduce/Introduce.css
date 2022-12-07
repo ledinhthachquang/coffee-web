@@ -26,32 +26,7 @@
     font-size: 1.6rem;
     border: none;
 } */
-.btn:hover {
-    transform: translateY(-3px);
-    cursor: pointer;    
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); 
-}
-.btn:hover::after {
-      transform: scaleX(1.4) scaleY(1.6);
-      opacity: 0; 
-}
-.btn:active, .btn:focus {
-    outline: none;
-    transform: translateY(-1px);
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); 
-}
-.btn::after {
-    content: "";
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    border-radius: 10rem;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: all .4s;
-}
+
   
 .v1_51 {
     width: fit-content;
@@ -106,10 +81,10 @@
   .v1_61 {
     width: 150px;
     color: rgb(255, 254, 254);
-    background-color: black;
+    /* background-color: black; */
     position: absolute;
     font-family: NATS;
-    font-size: 20px; 
+    font-size: 25px; 
     border-top-left-radius: 60px;
     border-top-right-radius: 60px;
     border-bottom-left-radius: 60px;
@@ -117,11 +92,19 @@
     margin: 730px 200px;
     border-width: 5px;
     border-style: solid;
-    border-color: rgb(0, 0, 0);
+    /* border-color: rgb(0, 0, 0); */
     border-image: initial;
     overflow: hidden;
     text-align: center;
   }
+  .green_button {
+    background-color:#336666;
+    color: #fff; 
+}
+.green_button::after {
+      background-color: #009999	; 
+      color: aqua;
+}
   .v1_62{
     position: absolute;
     width: 100%;
