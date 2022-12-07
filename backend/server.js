@@ -8,7 +8,7 @@ var cors = require('cors')
 dotenv.config();
 app.use(cors());
 connectDB();
-
+app.use(express.json())
 
 app.get('/',(req,res)=>{
  res.send('không có cái api nào ở đây hết')
