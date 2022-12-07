@@ -8,8 +8,18 @@
     flex-direction: column;
     /* background: url('../../assets/bg.png'); */
     background-image: linear-gradient(to right, #6A82FB,var(--color-golden)); 
-
     padding-top: 0;
+
+    background: #3586ff;
+}
+
+.app__footer .wave {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: #f00 url(/my-app/src/assets/wave.png);
 }
 
 .app__footer-links {
@@ -51,6 +61,7 @@
 
 .app__footer-links_icons svg:hover {
     color: var(--color-golden);
+    transform: translateY(-10px);
 }
 
 .app__footer-headtext {
