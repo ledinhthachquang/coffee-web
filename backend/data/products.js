@@ -37,7 +37,7 @@ const products = [
   },
   {
     
-    name: 'Frappucino',
+    name: 'FRAPPUCINO',
     image: '/images/menu-4.png',
     description:
     'Coffee',
@@ -49,7 +49,7 @@ const products = [
   },
   {
     
-    name: 'Black coffee',
+    name: 'BLACK COFFEE',
     image: '/images/menu-5.png',
     description:
     'Coffee',
@@ -61,7 +61,7 @@ const products = [
   },
   {
     
-    name: 'Love heart coffee',
+    name: 'LOVE HEART COFFEE',
     image: '/images/menu-6.png',
     description:
     'Coffee',
