@@ -6,13 +6,7 @@ import images from '../../constants/images';
 import './Footer.css';
 
 const Footer = () => (
-  <div className="app__footer section__padding animation" id="login">
-    <div className="waves">
-      <div className="wave" id = "wave1"></div>
-      <div className="wave" id = "wave2"></div>
-      <div className="wave" id = "wave3"></div>
-      <div className="wave" id = "wave4"></div>
-    </div>
+  <div className="app__footer section__padding" id="login">
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contact Us</h1>

@@ -15,18 +15,6 @@
     grid-template-rows: 100px 100px;
     grid-gap: 20px;
 }
-/* .btn, .btn:link, .btn:visited {
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 1.5rem 4rem;
-    display: inline-block;
-    border-radius: 10rem;
-    transition: all .2s;
-    position: relative;
-    font-size: 1.6rem;
-    border: none;
-} */
-
   
 .v1_51 {
     width: fit-content;
@@ -81,10 +69,10 @@
   .v1_61 {
     width: 150px;
     color: rgb(255, 254, 254);
-    /* background-color: black; */
+    background-color: black;
     position: absolute;
     font-family: NATS;
-    font-size: 25px; 
+    font-size: 20px; 
     border-top-left-radius: 60px;
     border-top-right-radius: 60px;
     border-bottom-left-radius: 60px;
@@ -92,19 +80,11 @@
     margin: 730px 200px;
     border-width: 5px;
     border-style: solid;
-    /* border-color: rgb(0, 0, 0); */
+    border-color: rgb(0, 0, 0);
     border-image: initial;
     overflow: hidden;
     text-align: center;
   }
-  .green_button {
-    background-color:#336666;
-    color: #fff; 
-}
-.green_button::after {
-      background-color: #009999	; 
-      color: aqua;
-}
   .v1_62{
     position: absolute;
     width: 100%;

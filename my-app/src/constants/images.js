@@ -21,8 +21,7 @@ import i3 from '../assets/image 3.svg'
 import i4 from '../assets/image 4.svg'
 import rs1 from '../assets/rosemary (1).svg'
 import rs from '../assets/rosemary.svg'
-import img2 from '../assets/Image2.png'
-import img from '../assets/Image.png'
+
 export default {
     bg,
     hr,
@@ -37,5 +36,5 @@ export default {
     gallery06,
     hd,
     m1,m2,m3,m4,m5,m6,
-    i2,i3,i4,rs1,rs,img,img2
+    i2,i3,i4,rs1,rs
 };

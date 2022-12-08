@@ -1,6 +1,7 @@
 .app__menu{
-    height: 140vh;
+    height: 100vh;
     background-color: var(--color-white);
+    margin-bottom:80vh;
 }
 .headtext__cormorant{
    font-family: var(--font-base);
@@ -32,48 +33,6 @@
     margin: auto;
     gap : 4rem;
  }
- .card_in_back{
-   transform: rotateY(180deg); 
-}
-.card:hover .card_in_font{
-   transform: rotateY(-180deg);
-}
-.card:hover .card_in_back{
-   transform: rotateY(0);
-}
-.card_in_back{
-   transform: rotateY(180deg);
-}
-.card_in_back-1{
-   background-image: linear-gradient(to right bottom,#ffb900, #ff7730);
-}
-.card_in_back-2{
-   background-image: linear-gradient(to right bottom, #7ed56f, #28b485); 
-}
-.card_in_back-3{
-   background-image: linear-gradient(to right bottom, #2998ff, #5643fa); 
-}
-.card__cta {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   width: 90%;
-   text-align: center; 
-}
-.card__price-box {
-   text-align: center;
-   color: #fff;
-   margin-bottom: 8rem; 
-}
-.card__price-only {
-   font-size: 1.4rem;
-   text-transform: uppercase;
-}
-.card__price-value {
-   font-size: 6rem;
-   font-weight: 100; 
-}
  
  .app__menu .box-container .box{
     text-align: center;
@@ -88,66 +47,10 @@
     font-size: 2rem;
     color:var(--black);
  }
- .btn, .btn:link, .btn:visited {
-   text-transform: uppercase;
-   text-decoration: none;
-   display: inline-block;
-   border-radius: 10rem;
-   transition: all .2s;
-   font-size: 1.6rem;
-   border: none;
-   padding: 1.5rem 2rem;
-   cursor: pointer; 
-}
 
- 
-.btn:hover {
-   transform: translateY(-3px);
-   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); 
-}
-.btn:hover::after {
-     transform: scaleX(1.4) scaleY(1.6);
-     opacity: 0; 
-}
- 
-.btn:active, .btn:focus {
-   outline: none;
-   transform: translateY(-1px);
-   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); 
-}
-.btn--white {
-   background-color: #fff;
-   color: #777; 
-}
-.btn--white::after {
-     background-color: #fff; 
-}
-/* .btn::after {
-   content: "";
-   display: inline-block;
-   height: 50%;
-   width: 50%;
-   border-radius: 10rem;
-   position: absolute;
-   z-index: -1;
-   top: 0;
-   left: 0;
-   transition: all .4s;
-} */
-
-.btn-text:hover {
-   background-color: #55c57a;
-   color: #fff;
-   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
-   transform: translateY(-2px); 
-}
-.btn-text:active {
-   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-   transform: translateY(0); 
-}
  
 @media screen and (min-width: 2000px) {
-   .app__menu .box-container .box img {   
+   .app__menu .box-container .box img {
        width: 210px;
    }
 }

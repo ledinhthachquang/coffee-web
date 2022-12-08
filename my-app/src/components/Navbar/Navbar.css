@@ -11,8 +11,6 @@
 
 .header_bg{
     background: url('../../assets/bg.png');
-    /* background-color: var(--color-golden); */
-    background-image: linear-gradient(to right, var(--color-golden),#FC5C7D	); 
     background-position: center;
     background-size: cover;
     background-repeat: repeat;
