@@ -16,6 +16,7 @@ import { BrowserRouter as Router, Routes, Route,Link } from 'react-router-dom';
 import LoginScreen from './Screen/LoginScreen';
 import RegisterScreen from './Screen/RegisterScreen';
 import ProfileScreen from './Screen/ProfileScreen';
+import Feedback from './components/Feedback/Feedback';
 const mystyle = {
   margin:"200px"
 };
@@ -29,6 +30,7 @@ const AppLayout = () => (
 <Order/>
 <Gallery/>
 <Intro/>
+<Feedback/>
 <Footer/>
 </>);
 const ProductLayout = ()=>(
