@@ -6,9 +6,14 @@
     justify-content: center;
     align-items: flex-end;
     min-height: 100vh;
+    
     /* margin-right: 9rem; */
     margin-top: 12rem; 
     padding: 1rem;
+}
+TextSpan{
+    font-size: 5rem;
+    color: black;
 }
 .app__content-h1{
     width: 100%;
@@ -24,16 +29,24 @@
     margin-bottom: 6rem;
     padding-left: 49rem;
 }
-.app__content p{
-    width: 100%;
+.wrapper{
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    margin-bottom: 6rem;
+    padding-left: 49rem;
+}
+.app__content .p__vl{
+    width: 100%;
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: center; */
     font-family: 'Times New Roman';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 48px;
+    margin-left: 10rem;
 }
 @media screen and (min-width: 2000px) {
     .app__content-h1 {
